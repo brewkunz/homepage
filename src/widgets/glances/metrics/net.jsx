@@ -82,7 +82,7 @@ export default function Component({ service }) {
           dataPoints={dataPoints}
           label={[t("docker.rx"), t("docker.tx")]}
           formatter={(value) =>
-            t("common.bitrate", {
+            t("common.byterate", {
               value,
               maximumFractionDigits: 0,
             })
@@ -96,8 +96,8 @@ export default function Component({ service }) {
         )}
 
         <div className="text-xs opacity-75">
-          {t("common.bitrate", {
-            value: (interfaceData.rx * 8) / interfaceData.time_since_update,
+          {t("common.byterate", {
+            value: (interfaceData.rx) / interfaceData.time_since_update,
             maximumFractionDigits: 0,
           })}{" "}
           {t("docker.rx")}
@@ -114,8 +114,8 @@ export default function Component({ service }) {
 
       <Block position="bottom-3 right-3">
         <div className="text-xs opacity-75">
-          {t("common.bitrate", {
-            value: (interfaceData.tx * 8) / interfaceData.time_since_update,
+          {t("common.byterate", {
+            value: (interfaceData.tx) / interfaceData.time_since_update,
             maximumFractionDigits: 0,
           })}{" "}
           {t("docker.tx")}
