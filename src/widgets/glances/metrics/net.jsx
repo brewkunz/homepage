@@ -97,7 +97,7 @@ export default function Component({ service }) {
 
         <div className="text-xs opacity-75">
           {t("common.byterate", {
-            value: (interfaceData.rx) / interfaceData.time_since_update,
+            value: interfaceData.rx / interfaceData.time_since_update,
             maximumFractionDigits: 0,
           })}{" "}
           {t("docker.rx")}
@@ -115,7 +115,7 @@ export default function Component({ service }) {
       <Block position="bottom-3 right-3">
         <div className="text-xs opacity-75">
           {t("common.byterate", {
-            value: (interfaceData.tx) / interfaceData.time_since_update,
+            value: interfaceData.tx / interfaceData.time_since_update,
             maximumFractionDigits: 0,
           })}{" "}
           {t("docker.tx")}
