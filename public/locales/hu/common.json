@@ -45,7 +45,7 @@
         "free": "Szabad",
         "used": "Használt",
         "load": "Terhelés",
-        "temp": "HŐ",
+        "temp": "HŐM",
         "max": "Max",
         "uptime": "FUT"
     },
@@ -140,7 +140,7 @@
         "connectionStatusPendingDisconnect": "Szétkapcsolás függőben",
         "connectionStatusDisconnecting": "Kapcsolat bontása",
         "connectionStatusDisconnected": "Kapcsolat bontva",
-        "connectionStatusConnected": "Csatlakoztatott",
+        "connectionStatusConnected": "Csatlakozva",
         "uptime": "Üzemidő",
         "maxDown": "Max let.",
         "maxUp": "Max felt.",
@@ -226,6 +226,10 @@
         "leech": "Leech",
         "seed": "Seed"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Letöltés",
         "upload": "Feltöltés",
@@ -277,11 +281,11 @@
         "approved": "Engedélyezett",
         "available": "Elérhető"
     },
-    "pialert": {
+    "netalertx": {
         "total": "Összes",
-        "connected": "Csatlakoztatott",
-        "new_devices": "Új Eszközök",
-        "down_alerts": "Leállási Figyelmeztetések"
+        "connected": "Csatlakozva",
+        "new_devices": "Új eszközök",
+        "down_alerts": "Leállási riasztások"
     },
     "pihole": {
         "queries": "Lekérdezések",
@@ -318,6 +322,19 @@
         "minutes": "{{number}}p",
         "seconds": "{{number}}mp",
         "ago": "{{value}} Ezelőtt"
+    },
+    "technitium": {
+        "totalQueries": "Lekérdezések",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Blokkolt",
+        "totalDropped": "Dropped",
+        "totalClients": "Kliensek"
     },
     "tdarr": {
         "queue": "Sor",
@@ -404,7 +421,7 @@
         "cpu": "Processzor",
         "load": "Terhelés",
         "wait": "Kérjük várjon",
-        "temp": "HŐ",
+        "temp": "HŐM",
         "_temp": "Hőmérséklet",
         "warn": "Figyelmeztet",
         "uptime": "FUT",
@@ -827,7 +844,17 @@
     },
     "romm": {
         "platforms": "Felület",
-        "totalRoms": "Minden ROM"
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Domainek",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Tárhely"
     },
     "netdata": {
         "warnings": "Figyelmeztetések",
@@ -872,5 +899,59 @@
         "labels": "Címkék",
         "users": "Felhasználók",
         "totalValue": "Teljes érték"
+    },
+    "crowdsec": {
+        "alerts": "Riasztások",
+        "bans": "Bans"
+    },
+    "wgeasy": {
+        "connected": "Csatlakozva",
+        "enabled": "Bekapcsolva",
+        "disabled": "Kikapcsolva",
+        "total": "Összes"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Outdated",
+        "banned": "Banned"
+    },
+    "myspeed": {
+        "ping": "Ping",
+        "download": "Letöltés",
+        "upload": "Feltöltés"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Loading",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Invalid Configuration"
+    },
+    "frigate": {
+        "cameras": "Cameras",
+        "uptime": "Üzemidő",
+        "version": "Verzió"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Címkék"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Információ",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Jármű",
+        "vehicles": "Járművek",
+        "serviceRecords": "Szolgáltatások nyílvántartása",
+        "reminders": "Emlékeztetők",
+        "nextReminder": "Következő emlékeztető",
+        "none": "None"
     }
 }
